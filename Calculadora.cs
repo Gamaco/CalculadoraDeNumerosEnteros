@@ -33,7 +33,7 @@ namespace CalculadoraDeNumerosEnteros
             InitializeComponent();
         }
 
-        #region Number Buttons
+        #region Botones para los numeros
 
         /********************************************************************************
          * 
@@ -248,7 +248,6 @@ namespace CalculadoraDeNumerosEnteros
         }
         #endregion
 
-
         #region Botones para: Reset, Negativo/Positivo, Punto
         // Boton para resetear (AC)
         private void rjButton1_Click(object sender, EventArgs e)
@@ -295,7 +294,7 @@ namespace CalculadoraDeNumerosEnteros
         }
         #endregion
 
-        #region Operation Buttons
+        #region Botones para las operaciones
 
         // Suma
         private void rjButton13_Click(object sender, EventArgs e)
